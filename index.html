@@ -11,52 +11,52 @@
 
 <body>
   <header class="container mx-auto">
-    <nav class="flex justify-between items-center mt-10">
+    <nav class="sm:flex justify-between items-center mt-10">
       <div class="flex items-center">
         <img src="img/logo.png" alt="Logo Nibiru Developers" width="50px" height="50px">
         <input class="max-h-8 p-2 ml-4 bg-gray-200 rounded-md border-b-1 border-gray-700 outline-none" type="search"
           placeholder="Cari sesuatu?">
       </div>
       <ul class="flex">
-        <li class="bg-gray-100 py-2 px-4 ml-3 rounded-md"><a class="text-black-800" href="#">Belajar</a></li>
-        <li class="bg-gray-100 py-2 px-4 ml-3 rounded-md"><a class="text-black-800" href="#">Blog</a></li>
-        <li class="bg-gray-100 py-2 px-4 ml-3 rounded-md"><a class="text-black-800" href="#">Login</a></li>
+        <li class="bg-gray-100 hover:bg-gray-200 py-2 px-4 ml-3 rounded-md"><a class="text-black-800" href="#">Belajar</a></li>
+        <li class="bg-gray-100 hover:bg-gray-200 py-2 px-4 ml-3 rounded-md"><a class="text-black-800" href="#">Blog</a></li>
+        <li class="bg-gray-100 hover:bg-gray-200 py-2 px-4 ml-3 rounded-md"><a class="text-black-800" href="#">Login</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container mx-auto">
-    <section class="flex mt-10">
-      <div class="text-center w-4/6 p-2">
+    <section class="md:flex mt-10">
+      <div class="text-center md:w-4/6 p-2">
         <img class="mx-auto object-cover w-60 h-60 rounded-md" src="img/ci.png" alt="Library Image">
         <h1 class="text-3xl text-gray-800 my-2">Belajar Programming,<br>
           Mulai dari Nol</h1>
         <h2 class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, tempore doloremque
           iste nihil dignissimos beatae vero blanditiis eaque enim eveniet!</h2>
       </div>
-      <div class="shadow-lg text-center p-5 w-2/6">
+      <div class="shadow-lg text-center p-5 md:w-2/6">
         <p class="text-sm">Daftar dengan: </p>
-        <div class="flex justify-center flex-wrap my-2">
-          <a class="text-sm text-white py-1 px-6 rounded-md m-1 bg-red-400" href="#">Google</a>
-          <a class="text-sm text-white py-1 px-6 rounded-md m-1 bg-gray-800" href="#">Github</a>
-          <a class="text-sm text-white py-1 px-6 rounded-md m-1 bg-blue-500" href="#">Twitter</a>
+        <div class="flex flex-wrap justify-center my-2">
+          <a class="text-sm text-white py-1 px-6 rounded-md m-1 bg-red-400 hover:bg-red-500" href="#">Google</a>
+          <a class="text-sm text-white py-1 px-6 rounded-md m-1 bg-gray-800 hover:bg-gray-700" href="#">Github</a>
+          <a class="text-sm text-white py-1 px-6 rounded-md m-1 bg-blue-500 hover:bg-blue-600" href="#">Twitter</a>
         </div>
         <p class="text-sm">atau daftar dengan email</p>
 
         <form action="" class="text-left my-2">
           <div class="bg-gray-100 rounded-md p-1 px-4 mb-2">
             <label class="block text-gray-500" for="username">Username</label>
-            <input class="p-1 bg-transparent w-full text-lg" type="text" id="username" placeholder="Input username...">
+            <input class="outline-none p-1 bg-transparent w-full text-lg" type="text" id="username" placeholder="Input username...">
           </div>
 
           <div class="bg-gray-100 rounded-md p-1 px-4 mb-2">
             <label class="block text-gray-500" for="email">Email</label>
-            <input class="p-1 bg-transparent w-full text-lg" type="email" id="email" placeholder="Input email...">
+            <input class="outline-none p-1 bg-transparent w-full text-lg" type="email" id="email" placeholder="Input email...">
           </div>
 
           <div class="bg-gray-100 rounded-md p-1 px-4 mb-2">
             <label class="block text-gray-500" for="password">Password</label>
-            <input class="p-1 bg-transparent w-full text-lg" type="text" id="password" placeholder="Input password...">
+            <input class="outline-none p-1 bg-transparent w-full text-lg" type="text" id="password" placeholder="Input password...">
           </div>
 
           <button class="mt-2 w-full text-center bg-blue-700 text-white py-2 text-lg rounded-md">Daftar</button>
